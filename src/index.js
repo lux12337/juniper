@@ -21,7 +21,7 @@ class Juniper {
         this.selector = options.selector || '[data-executable]';
         this.repo = options.repo;
         this.branch = options.branch || 'master';
-        this.url = options.url || 'https://mybinder.org';
+        this.url = options.url || 'https://binder.libretexts.org';
         this.serverSettings = options.serverSettings || {};
         this.kernelType = options.kernelType || 'python3';
         this.defaultLang = options.language || 'python';
